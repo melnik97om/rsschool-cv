@@ -28,6 +28,7 @@ body {
 .header {
     width: 1280px;
     margin: 0 auto;
+    background-color: #4b70b7;
 }
 
 .container {
@@ -38,9 +39,43 @@ body {
 
 .footer {
     width: 1280px;
+    padding: 10px 20px;
     margin: 0 auto;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     gap: 20px;
+    background-color: #4b70b7;
+    color: #fff;
+}
+
+.nav__list {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav__link {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease-in, border-color 0.4s ease;
+    border-bottom: 3px solid transparent;
+}
+
+.footer__link {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease, border-color 0.4s ease;
+    border-bottom: 3px solid transparent;
+}
+
+.nav__link:hover,
+.footer__link:hover {
+    color: rgba(255, 255, 255, .8);
+    border-bottom: 3px solid rgba(255, 255, 255, .8);
+}
+.rsschool__link {
+    background-color: #fff;
 }
