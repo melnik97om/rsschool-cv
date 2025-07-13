@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV RSSchool</title>
+    <link rel="icon" href="./images/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="header__nav">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#contacts" class="nav__link">Contacts</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">About me</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#skills" class="nav__link">Skills</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#edu" class="nav__link">Education</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#langs" class="nav__link">Languages</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#code" class="nav__link">Code example</a>
+                </li>
+            </ul>
+            <!-- /nav__list -->
+        </nav>
+        <!-- /header__nav -->
+    </header>
+    <!-- /header -->
+    <div class="container">
+        <main class="main">
+            <section class="contacts" id="contacts">
+                <h2 class="section__heading">Contacts</h2>
+                <ul class="contact__list section__list">
+                    <li class="contacts__item">
+                        Phone number: +375(29)141-29-79
+                    </li>
+                    <li class="contacts__item">
+                        Telegram: @oleg97mar
+                    </li>
+                    <li class="contacts__item">
+                        Discord: Oleg(@melnik97om)
+                    </li>
+                </ul>
+                <!-- /contact__list -->
+            </section>
+            <!-- /contacts -->
+
+            <section class="about" id="about">
+                <h2 class="section__heading">About me</h2>
+                <p class="about__text">
+                    By my main education I am a classical musician. I worked in various teams of Belarus. However, more than once I wanted to master some kind of IT profession (software testing or frontend). I know how hard it is to become a professional developer, but my goal is to constantly, step by step, move in this direction.
+                </p>
+                <!-- /about__text -->
+            </section>
+            <!-- /about -->
+
+            <section class="skills" id="skills">
+                <h2 class="section__heading">Skills</h2>
+                <ul class="skills__list section__list">
+                    <li class="skills__item">HTML</li>
+                    <li class="skills__item">CSS</li>
+                    <li class="skills__item">JavaScript (basic)</li>
+                    <li class="skills__item">Photoshop/Figma</li>
+                </ul>
+                <!-- /skills__list -->
+            </section>
+            <!-- /skills -->
+
+            <section class="edu" id="edu">
+                <h2 class="section__heading">Education</h2>
+                <ul class="edu__list section__list">
+                    <li class="edu__item">BSAM, Minsk bachelor degree</li>
+                    <li class="edu__item">GSU, Gomel course of Web-design</li>
+                    <li class="edu__item">The RSSchool JS/FE PRE-SCHOOL 2022Q4</li>
+                </ul>
+                <!-- /edu__list -->
+            </section>
+            <!-- /edu -->
+
+            <section class="langs" id="langs">
+                <h2 class="section__heading">Languages</h2>
+                <ul class="langs__list section__list">
+                    <li class="langs__item">Russian (native)</li>
+                    <li class="langs__item">Belorussian (native)</li>
+                    <li class="langs__item">English (A2 elementary)</li>
+                </ul>
+                <!-- /langs__list -->
+            </section>
+            <!-- /langs -->
+
+            <section class="code" id="code">
+                <h2 class="section__heading">Code example</h2>
+                <pre>
+<code>
+    function randNumber() {
+        let num = Math.random();
+        num = Math.round(num*100);
+        return num;
+    }
+
+    let firstNum = randNumber();
+    let secondNum = randNumber();
+
+    if(firstNum &lt; secondNum) {
+        alert ('the first number less than the second');
+    } else if(firstNum &gt; secondNum) {
+        alert ('the first number greater than the second');
+    } else {
+        alert ('The numbers are equal');
+    }
+</code>
+                </pre>
+            </section>
+            <!-- /code -->
+        </main>
+        <!-- /main -->
+        <aside class="aside">
+            <div class="cv__photo">
+                <img src="./images/melnitsa.jpg" alt="background image mill in field" width="350" height="350">
+            </div>
+            <!-- /cv__photo -->
+            <h1 class="cv__heading">Maryankov Oleg</h1>
+        </aside>
+        <!-- /aside -->
+    </div>
+    <!-- /container -->
+
+    <footer class="footer">
+        <p>
+            &copy; 2025 <a href="https://github.com/melnik97om" class="footer__link">Maryankov Oleg</a>
+        </p>
+        <a href="https://app.rs.school/" class="footer__link">
+            <img src="./images/rs_school_js.svg" alt="RS School App" class="rsschool__link">
+        </a>
+    </footer>
+    <!-- /footer -->
+</body>
+</html>
